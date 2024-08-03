@@ -14,9 +14,9 @@
 
 ## User
 
+- As a user, I want to manage my garden layout by posting pictures of my plant's location in the house or by posting a picture of the whole garden so that I can optimize and visualize my garden's design.
 - As a user, I want to access a comprehensive plant encyclopedia so that I can learn about various plant species and their care requirements.
 - As a user, I want to receive plant health notifications and watering reminders so that I can maintain my plants properly.
-- As a user, I want to connect with other gardeners through community features so that I can share tips and progress.
 
 ## Admin
 
