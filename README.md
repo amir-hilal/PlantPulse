@@ -43,6 +43,7 @@
 - Weather updates are fetched using the [OpenWeatherMap API](https://openweathermap.org/).
 - The database is managed using [MySQL](https://www.mysql.com/), providing scalable and efficient storage solutions.
 - The app’s primary font is ["Inter"](https://fonts.google.com/specimen/Inter), offering a clean and modern design.
+- The admin dashboard is built using [Electron.js](https://www.electronjs.org/), allowing for a desktop application experience.
 
 <br><br>
 
