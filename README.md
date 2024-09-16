@@ -79,16 +79,15 @@
 | Login screen                              | Register screen                         | Landing screen                          |
 | ----------------------------------------- | --------------------------------------- | --------------------------------------- |
 | ![Landing](./readme/assets/Login.png) | ![fsdaf](./readme/assets/Register.png) | ![fsdaf](./readme/assets/LandingPage.png) |
-| Home screen                               | Gardens Screen                             | Order Screen                            |
-| ![Landing](./readme/assets/HomeScreen.png) | ![fsdaf](./readme/assets/GardensPage.png) | ![fsdaf](./readme/assets/Tutorials.png) |
+| Chats screen                               | Gardens Screen                             | Tutorials Screen                            |
+| ![Landing](./readme/assets/ChatsScreen.png) | ![fsdaf](./readme/assets/GardensPage.png) | ![fsdaf](./readme/assets/Tutorials.png) |
 
 ### Admin Screens (Web)
 
-| Login screen                            | Register screen                       | Landing screen                        |
+| Login screen                            | Dashboard screen                       | Add Tutorial screen                        |
 | --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen                             | Menu Screen                           | Order Screen                          |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Landing](./readme/assets/AdminLogin.png) | ![fsdaf](./readme/assets//AdminDashboard.png) | ![fsdaf](./readme/assets//AddTutorial.png) |
+
 
 <br><br>
 
