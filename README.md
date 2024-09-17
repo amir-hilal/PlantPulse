@@ -56,8 +56,8 @@
 
 ### Mockups
 
-| Landing screen                             | Gardens Screen                           | Profile Screen                          |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
+| Landing screen                              | Gardens Screen                            | Profile Screen                            |
+| ------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
 | ![Landing](./readme/assets/LandingPage.png) | ![fsdaf](./readme/assets/GardensPage.png) | ![fsdaf](./readme/assets/ProfilePage.png) |
 
 <br><br>
@@ -76,18 +76,17 @@
 
 ### User Screens (Web)
 
-| Login screen                              | Register screen                         | Landing screen                          |
-| ----------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Landing](./readme/assets/Login.png) | ![fsdaf](./readme/assets/Register.png) | ![fsdaf](./readme/assets/LandingPage.png) |
-| Chats screen                               | Gardens Screen                             | Tutorials Screen                            |
-| ![Landing](./readme/assets/ChatsScreen.png) | ![fsdaf](./readme/assets/GardensPage.png) | ![fsdaf](./readme/assets/Tutorials.png) |
+| Login screen                                | Landing screen                            | Gardens screen                            |
+| ------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
+| ![Landing](./readme/assets/Login.png)       | ![fsdaf](./readme/assets/LandingPage.png) | ![fsdaf](./readme/assets/GardensPage.png) |
+| Chats screen                                | Profile Screen                            | Tutorials Screen                          |
+| ![Landing](./readme/assets/ChatsScreen.png) | ![fsdaf](./readme/assets/ProfilePage.png) | ![fsdaf](./readme/assets/Tutorials.png)   |
 
 ### Admin Screens (Web)
 
-| Login screen                            | Dashboard screen                       | Add Tutorial screen                        |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
+| Login screen                               | Dashboard screen                              | Add Tutorial screen                        |
+| ------------------------------------------ | --------------------------------------------- | ------------------------------------------ |
 | ![Landing](./readme/assets/AdminLogin.png) | ![fsdaf](./readme/assets//AdminDashboard.png) | ![fsdaf](./readme/assets//AddTutorial.png) |
-
 
 <br><br>
 
@@ -107,7 +106,7 @@
 
 ### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project leverages AWS for seamless deployment of our AI-powered app, ensuring scalability, reliability, and performance. The front-end is deployed using Vercel, while the backend server runs on an EC2 instance. We also utilize Amazon S3 for secure and efficient storage of uploaded images, as well as the AI models used within the application.
 
 <br><br>
 
@@ -123,31 +122,113 @@
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up PlantPulse locally, follow these steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+This section lists the things you need to use the software and how to install them.
 
 - npm
-  ```sh
-  npm install npm@latest -g
-  ```
+
+```sh
+npm install npm@latest -g
+```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Follow the steps below to install and set up the PlantPulse app.
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+1. Clone the repo
+
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   git clone [github](https://github.com/your_username_/PlantPulse.git)
    ```
 
-Now, you should be able to run Coffee Express locally and explore its features.
+2. Install NPM packages
+
+```sh
+   npm install
+```
+
+3. Run the React app (React 18)
+
+```sh
+   npm run start
+```
+
+_Link to React: [React](https://reactjs.org/)_
+
+4. Install Laravel dependencies
+
+Install Composer from [Composer](https://getcomposer.org/)
+
+```sh
+   composer install
+```
+
+Run Laravel server:
+
+```sh
+php artisan serve
+```
+
+Run Laravel queue:
+
+```sh
+php artisan queue:work
+```
+
+_Link to Laravel: [Laravel](https://laravel.com/)_
+
+### Admin App
+
+1. Install the admin app's dependencies
+
+```sh
+npm install
+```
+
+2. Run the admin app
+
+```sh
+npm run start
+```
+
+### Python Prediction App
+
+1. Install the required Python dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+
+2. Download the PlantVillage dataset from Kaggle or any dataset suitable for training the model.
+   _Link to Kaggle: [Kaggle](https://www.kaggle.com/)_
+
+3. Split the dataset into training, testing, and validation:
+
+```sh
+python split_dataset.py
+```
+
+_Ensure that you have a `data` folder in the root directory of the project._
+
+4. Train the model:
+
+```sh
+python src/train.py
+```
+
+5. Predict using the trained model:
+
+```sh
+python src/predict.py --image path_to_image
+```
+
+6. Run the FastAPI endpoint to use it on your local machine:
+
+```sh
+python -m uvicorn app:app --reload
+```
+
+Now, you should be able to run PlantPulse locally and explore its features.
