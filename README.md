@@ -93,11 +93,15 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
+
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project leverages advanced prompt engineering techniques to optimize the interaction with natural language processing models. The chatbot is powered by OpenAI's GPT-4, which is enhanced by real-time data inputs, including weather conditions and plant-specific data, to provide accurate and personalized responses to users.
+- This project leverages advanced prompt engineering techniques to optimize interaction with natural language processing models. The chatbot is powered by OpenAI's GPT-4, which is enhanced by real-time data inputs, including weather conditions and plant-specific data, to provide accurate and personalized responses to users.
 
-- Additionally, we are training a custom model using [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), [pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/), [scikit-learn](https://scikit-learn.org/), [matplotlib](https://matplotlib.org/), and [Pillow](https://python-pillow.org/) on a dataset sourced from [Kaggle](https://www.kaggle.com/) to detect diseases from plant leaves. This model aids in managing the plant timeline by diagnosing plant health through image analysis. The results from this model are integrated into the OpenAI service, allowing for more insightful and contextually accurate responses, further improving plant care recommendations.
+- Additionally, we are training a custom model using [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), [pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/), [scikit-learn](https://scikit-learn.org/), [matplotlib](https://matplotlib.org/), and [Pillow](https://python-pillow.org/) on a dataset sourced from [Kaggle](https://www.kaggle.com/) to detect diseases from plant leaves. This model assists in managing the plant timeline by diagnosing plant health through image analysis.
+
+- We use [FastAPI](https://fastapi.tiangolo.com/) for serving our custom prediction API, [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) for integrating with AWS, and [python-multipart](https://andrew-d.github.io/python-multipart/) for handling file uploads. The results from our custom model are integrated into the OpenAI service, providing more insightful and contextually accurate responses to enhance plant care recommendations.
+
 
 <br><br>
 
