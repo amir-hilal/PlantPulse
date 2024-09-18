@@ -145,7 +145,7 @@ Follow the steps below to install and set up the PlantPulse app.
 1. Clone the repo
 
    ```sh
-   git clone [github](https://github.com/your_username_/PlantPulse.git)
+   git clone [github](https://github.com/amir-hilal/PlantPulse.git)
    ```
 
 2. Install NPM packages
