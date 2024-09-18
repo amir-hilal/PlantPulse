@@ -1,0 +1,15 @@
+[submodule "plantpulse-backend"]
+	path = plantpulse-backend
+	url = https://github.com/amir-hilal/plantpulse-backend.git
+[submodule "plantpulse-frontend"]
+	path = plantpulse-frontend
+	url = https://github.com/amir-hilal/plantpulse-frontend.git
+[submodule "plantpulse-ai"]
+	path = plantpulse-ai
+	url = https://github.com/amir-hilal/plantpulse-ai.git
+[submodule "plantpulse-admin"]
+	path = plantpulse-admin
+	url = https://github.com/amir-hilal/plantpulse-admin.git
+[submodule "openai-service"]
+	path = openai-service
+	url = https://github.com/amir-hilal/openai-service.git
