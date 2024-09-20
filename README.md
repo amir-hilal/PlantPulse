@@ -44,8 +44,11 @@
 - The database is managed using [MySQL](https://www.mysql.com/), providing scalable and efficient storage solutions.
 - The app’s primary font is ["Inter"](https://fonts.google.com/specimen/Inter), offering a clean and modern design.
 - The admin dashboard is built using [Electron.js](https://www.electronjs.org/), allowing for a desktop application experience.
-
-<br><br>
+- Data processing and model training for the AI features are handled using [FastAPI](https://fastapi.tiangolo.com/) for serving the model, with the data split and model training managed using [TensorFlow](https://www.tensorflow.org/) and [scikit-learn](https://scikit-learn.org/).
+<br>
+![C4 Model](./readme/assets/structurizr-Container-001.png)
+<br>
+<br>
 
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
