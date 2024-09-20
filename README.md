@@ -46,7 +46,9 @@
 - The admin dashboard is built using [Electron.js](https://www.electronjs.org/), allowing for a desktop application experience.
 - Data processing and model training for the AI features are handled using [FastAPI](https://fastapi.tiangolo.com/) for serving the model, with the data split and model training managed using [TensorFlow](https://www.tensorflow.org/) and [scikit-learn](https://scikit-learn.org/).
 <br>
-![C4 Model](./readme/assets/structurizr-Container-001.png)
+
+![ER Diagram](./readme/assets/structurizr-Container-001.png)
+
 <br>
 <br>
 
@@ -148,7 +150,7 @@ Follow the steps below to install and set up the PlantPulse app.
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/amir-hilal/PlantPulse.git
+   git clone [github](https://github.com/your_username_/PlantPulse.git)
    ```
 
 2. Install NPM packages
