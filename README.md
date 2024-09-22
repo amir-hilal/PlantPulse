@@ -85,11 +85,11 @@
 
 | Login screen                                | Landing screen                            |
 | ------------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/login.gif)       | ![fsdaf](./readme/assets/LandingPage.png) |
+| <img src="./readme/assets/login.gif" alt="Login screen" width="1359" height="628">  | ![Landing](./readme/assets/LandingPage.png) |
 | Gardens screen                              | Chats screen                              |
-| ![fsdaf](./readme/assets/garden-plant.gif)  |![Landing](./readme/assets/ChatsScreen.png)|
+| <img src="./readme/assets/garden-plant.gif" alt="Gardens screen" width="1359" height="628">  | ![Landing](./readme/assets/ChatsScreen.png) |
 | Profile Screen                              | Tutorials Screen                          |
-|  ![fsdaf](./readme/assets/profile.gif)      | ![fsdaf](./readme/assets/Tutorials.png)   |
+| <img src="./readme/assets/profile.gif" alt="Profile screen" width="1359" height="628">  | ![fsdaf](./readme/assets/Tutorials.png)   |
 
 ### Admin Screens (Desktop)
 
