@@ -61,9 +61,11 @@
 
 ### Mockups
 
-| Landing screen                              | Gardens Screen                            | Profile Screen                            |
-| ------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/LandingPage.png) | ![fsdaf](./readme/assets/GardensPage.png) | ![fsdaf](./readme/assets/ProfilePage.png) |
+| Landing screen                              | Gardens Screen                            |
+| ------------------------------------------- | ----------------------------------------- |
+| ![Landing](./readme/assets/LandingPage.png) | ![fsdaf](./readme/assets/GardensPage.png) |
+| Profile Screen                              | Login Screen                              |
+| ![fsdaf](./readme/assets/ProfilePage.png)   | ![fsdaf](./readme/assets/Login.png)       |
 
 <br><br>
 
@@ -83,14 +85,11 @@
 
 | Login screen                                | Landing screen                            |
 | ------------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/Login.png)       | ![fsdaf](./readme/assets/LandingPage.png) |
+| ![Landing](./readme/assets/login.gif)       | ![fsdaf](./readme/assets/LandingPage.png) |
 | Gardens screen                              | Chats screen                              |
-| ------------------------------------------- | ----------------------------------------- |
-| ![fsdaf](./readme/assets/GardensPage.png)   |![Landing](./readme/assets/ChatsScreen.png)|
-| ------------------------------------------- | ----------------------------------------- |
+| ![fsdaf](./readme/assets/garden-plant.gif)  |![Landing](./readme/assets/ChatsScreen.png)|
 | Profile Screen                              | Tutorials Screen                          |
-| ------------------------------------------- | ----------------------------------------- |
-|  ![fsdaf](./readme/assets/ProfilePage.png)  | ![fsdaf](./readme/assets/Tutorials.png)   |
+|  ![fsdaf](./readme/assets/profile.gif)      | ![fsdaf](./readme/assets/Tutorials.png)   |
 
 ### Admin Screens (Desktop)
 
