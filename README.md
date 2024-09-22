@@ -81,17 +81,22 @@
 
 ### User Screens (Web)
 
-| Login screen                                | Landing screen                            | Gardens screen                            |
-| ------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/Login.png)       | ![fsdaf](./readme/assets/LandingPage.png) | ![fsdaf](./readme/assets/GardensPage.png) |
-| Chats screen                                | Profile Screen                            | Tutorials Screen                          |
-| ![Landing](./readme/assets/ChatsScreen.png) | ![fsdaf](./readme/assets/ProfilePage.png) | ![fsdaf](./readme/assets/Tutorials.png)   |
+| Login screen                                | Landing screen                            |
+| ------------------------------------------- | ----------------------------------------- |
+| ![Landing](./readme/assets/Login.png)       | ![fsdaf](./readme/assets/LandingPage.png) |
+| Gardens screen                              | Chats screen                              |
+| ------------------------------------------- | ----------------------------------------- |
+| ![fsdaf](./readme/assets/GardensPage.png)   |![Landing](./readme/assets/ChatsScreen.png)|
+| ------------------------------------------- | ----------------------------------------- |
+| Profile Screen                              | Tutorials Screen                          |
+| ------------------------------------------- | ----------------------------------------- |
+|  ![fsdaf](./readme/assets/ProfilePage.png)  | ![fsdaf](./readme/assets/Tutorials.png)   |
 
-### Admin Screens (Web)
+### Admin Screens (Desktop)
 
-| Login screen                               | Dashboard screen                              | Add Tutorial screen                        |
-| ------------------------------------------ | --------------------------------------------- | ------------------------------------------ |
-| ![Landing](./readme/assets/AdminLogin.png) | ![fsdaf](./readme/assets//AdminDashboard.png) | ![fsdaf](./readme/assets//AddTutorial.png) |
+| Dashboard screen                              | Add Tutorial screen                        |
+| --------------------------------------------- | ------------------------------------------ |
+| ![fsdaf](./readme/assets//AdminDashboard.png) | ![fsdaf](./readme/assets//AddTutorial.png) |
 
 <br><br>
 
@@ -116,6 +121,9 @@
 ### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
 - This project leverages AWS for seamless deployment of our AI-powered app, ensuring scalability, reliability, and performance. The front-end is deployed using Vercel, while the backend server runs on an EC2 instance. We also utilize Amazon S3 for secure and efficient storage of uploaded images, as well as the AI models used within the application.
+
+- **API Documentation**: Detailed API documentation can be accessed through [Postman](https://documenter.getpostman.com/view/24751453/2sAXqtbgvy).
+- **Website URL**: Visit our live website at [plantpulselb.com](https://plantpulselb.com).
 
 <br><br>
 
