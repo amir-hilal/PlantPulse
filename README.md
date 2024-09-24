@@ -64,8 +64,6 @@
 | Landing screen                              | Gardens Screen                            |
 | ------------------------------------------- | ----------------------------------------- |
 | ![Landing](./readme/assets/LandingPage.png) | ![fsdaf](./readme/assets/GardensPage.png) |
-| Profile Screen                              | Login Screen                              |
-| ![fsdaf](./readme/assets/ProfilePage.png)   | ![fsdaf](./readme/assets/Login.png)       |
 
 <br><br>
 
