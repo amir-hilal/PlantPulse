@@ -47,7 +47,7 @@
 - Data processing and model training for the AI features are handled using [FastAPI](https://fastapi.tiangolo.com/) for serving the model, with the data split and model training managed using [TensorFlow](https://www.tensorflow.org/) and [scikit-learn](https://scikit-learn.org/).
 <br>
 
-![ER Diagram](./readme/assets/structurizr-Container-001.png)
+![C4 Model](./readme/assets/structurizr-Container-001.png)
 
 <br>
 <br>
@@ -110,6 +110,8 @@
 - We use [FastAPI](https://fastapi.tiangolo.com/) for serving our custom prediction API, [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) for integrating with AWS, and [python-multipart](https://andrew-d.github.io/python-multipart/) for handling file uploads. The results from our custom model are integrated into the OpenAI service, providing more insightful and contextually accurate responses to enhance plant care recommendations.
 
 
+![Promts](./readme/assets/prompt.png)
+
 <br><br>
 
 <!-- AWS Deployment -->
@@ -122,6 +124,8 @@
 - **API Documentation**: Detailed API documentation can be accessed through [Postman](https://documenter.getpostman.com/view/24751453/2sAXqtbgvy).
 - **Website URL**: Visit our live website at [plantpulselb.com](https://plantpulselb.com).
 
+
+
 <br><br>
 
 <!-- Unit Testing -->
@@ -130,6 +134,7 @@
 ### Precision in Development: Harnessing the Power of Unit Testing:
 
 - This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+![Unit Testing](./readme/assets/unitTesting.gif)
 
 <br><br>
 
