@@ -124,7 +124,11 @@
 - **API Documentation**: Detailed API documentation can be accessed through [Postman](https://documenter.getpostman.com/view/24751453/2sAXqtbgvy).
 - **Website URL**: Visit our live website at [plantpulselb.com](https://plantpulselb.com).
 
-
+| Login API                                   | Get Friends Posts API (pagination)        |
+| ------------------------------------------- | ----------------------------------------- |
+| ![Login](./readme/assets/LoginAPI.png)      | ![Posts](./readme/assets/GetFriendsPostsAPI.png) |
+| Add Garden API                              | Post Plant Timeline API                   |
+| ![Plant](./readme/assets/AddPlantAPI.png)   | ![Timeline](./readme/assets/PlantTimeline.png) |
 
 <br><br>
 
@@ -135,7 +139,7 @@
 
 - This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
 
- <img src="./readme/assets/unitTesting.gif" alt="Profile screen" width="685" height="267">
+ <img src="./readme/assets/unitTesting.gif" alt="Profile screen" width="745" height="447">
 
 <br><br>
 
